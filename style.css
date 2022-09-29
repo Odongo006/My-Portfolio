@@ -9,12 +9,39 @@
   padding: 200px;
 }
 
+.Portfolio {
+  width: 60px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.topNav {
+  overflow: hidden;
+  background-color: #fff;
+  float: right;
+}
+
+.topNav a {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
 .box2 {
   align-items: center;
 }
 
 .header-nav {
-  display: flex;
   position: absolute;
   width: 1280px;
   height: 40px;
@@ -37,6 +64,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  float: left;
 }
 
 .PageBody {
