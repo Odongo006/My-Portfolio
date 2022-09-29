@@ -1,12 +1,16 @@
 
 .container {
   display: flex;
-  position: relative;
+  position: absolute;
   width: 1280px;
   height: 768px;
-  background-color: #f4f5f7;
-  align-items: center;
   background-image: url("/imgs/Header\ bg.svg");
+  align-content: center;
+  padding: 200px;
+}
+
+.box2 {
+  align-items: center;
 }
 
 .header-nav {
