@@ -1,12 +1,20 @@
 
-.container {
-  display: flex;
+.header {
   position: absolute;
-  width: 1280px;
-  height: 768px;
+  width: 375px;
+  height: 718px;
   background-image: url("/imgs/Header\ bg.svg");
   align-content: center;
   padding: 200px;
+}
+
+.Greetings {
+  width: 327px;
+  height: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .Portfolio {
@@ -53,6 +61,7 @@
 .MyLogo {
   width: 76px;
   height: 20px;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -64,7 +73,6 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  float: left;
 }
 
 .PageBody {
@@ -85,12 +93,13 @@ h1 {
 }
 
 .Content {
-  width: 900px;
-  height: 90px;
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
   color: #344563;
   flex: none;
   order: 1;
@@ -98,11 +107,12 @@ h1 {
 }
 
 .contact {
-  width: 120px;
-  height: 25px;
+  width: 117px;
+  height: 24px;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 15px;
   line-height: 24px;
   color: #7f8cff;
   flex: none;
