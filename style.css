@@ -61,7 +61,6 @@
 .MyLogo {
   width: 76px;
   height: 20px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -73,6 +72,62 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.twitter {
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+}
+
+.github {
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
+
+.chill {
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
+
+.micon {
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 78.15%;
+  bottom: 19.21%;
+}
+
+.i {
+  position: absolute;
+  left: 16.8%;
+  right: 81.87%;
+  top: 78.32%;
+  bottom: 18.87%;
+}
+
+.dot {
+  position: absolute;
+  left: 16.8%;
+  right: 81.87%;
+  top: 75.81%;
+  bottom: 21.36%;
+}
+
+.na {
+  position: absolute;
+  left: 18.74%;
+  right: 77.87%;
+  top: 78.32%;
+  bottom: 18.87%;
 }
 
 .PageBody {
@@ -95,7 +150,6 @@ h1 {
 .Content {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -109,7 +163,6 @@ h1 {
 .contact {
   width: 117px;
   height: 24px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
