@@ -3,6 +3,12 @@
   position: absolute;
   width: 375px;
   height: 718px;
+  left: 0px;
+  top: 0px;
+  
+  
+  
+  background: #FFFFFF;
   background-image: url("/imgs/Header\ bg.svg");
   align-content: center;
   padding: 200px;
@@ -112,6 +118,33 @@
   right: 81.87%;
   top: 78.32%;
   bottom: 18.87%;
+}
+
+.work-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.snapshot-portfolio {
+  width: 295px;
+  height: 220px;
+  
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .dot {
