@@ -1,10 +1,3 @@
-.social-icons {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin-top: 0.5rem;
-}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -12,7 +5,6 @@ body {
   background-color: #e5e5e5;
   margin: 0;
 }
-
 
 .MyLogo {
   transition-delay: 150ms;
@@ -26,9 +18,9 @@ body {
 .MyLogo:hover {
   transform: scale(1.2);
 }
-.navigation-link a:hover{
-  color: var(--clr-para);
 
+.navigation-link a:hover {
+  color: var(--clr-para);
 }
 
 .nav-bar {
@@ -40,7 +32,6 @@ body {
   transition: all 0.3s ease-in-out;
   background-color: var(--clr-purple);
 }
-
 
 .nav-icons .nav-bar1 {
   transform: translateY(8px) rotate(45deg);
@@ -58,18 +49,21 @@ body {
 }
 
 .Nav-items {
- display: flex;
- justify-content: space-between;
- align-items: center;
- gap: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
 }
-.nav-link{
+
+.nav-link {
   transition: 0.7s ease;
 }
-.nav-link:hover{
-  color:blue
+
+.nav-link:hover {
+  color: blue;
 }
-.nav-icons{
+
+.nav-icons {
   display: none;
   cursor: pointer;
 }
@@ -83,10 +77,6 @@ ul li {
 .social-icons li {
   width: 10%;
   float: left;
-}
-
-.social-icons li a {
-  float: right;
 }
 
 .header {
@@ -107,21 +97,32 @@ ul li {
   align-items: center;
 }
 
-@media(max-width:768px){
-  .nav-icons{
+.social-icons {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .nav-icons {
     display: block;
   }
-  .nav-icons.active .nav-bar:nth-child(2){
+
+  .nav-icons.active .nav-bar:nth-child(2) {
     opacity: 0;
   }
-  .nav-icons.active .nav-bar:nth-child(1){
+
+  .nav-icons.active .nav-bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  .nav-icons.active .nav-bar:nth-child(1){
+
+  .nav-icons.active .nav-bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .Nav-items{
+  .Nav-items {
     position: fixed;
     left: -100%;
     top: 70px;
@@ -132,11 +133,12 @@ ul li {
     text-align: center;
     transition: 0.3s;
   }
-  .navigation-link{
+
+  .navigation-link {
     margin: 16px 0;
   }
-  .Nav-items.active{
+
+  .Nav-items.active {
     left: 0;
   }
-
 }
