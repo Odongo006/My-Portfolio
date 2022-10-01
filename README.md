@@ -7,6 +7,12 @@
 - .gitignore
 - Package.json
 
+# Getting Started
+Have  Node.js installed in your system.
+In cmd, run the command npm install http-server -g
+Navigate the specific path of your file folder in cmd and run the command http-server
+Go to browser and type localhost:8080. This project should run there.
+
 ## Author
 👤 Author
 
