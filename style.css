@@ -13,6 +13,7 @@ body {
   margin: 0;
 }
 
+
 .MyLogo {
   transition-delay: 150ms;
   transition-duration: 350ms;
@@ -25,8 +26,12 @@ body {
 .MyLogo:hover {
   transform: scale(1.2);
 }
+.navigation-link a:hover{
+  color: var(--clr-para);
 
-.nav-bar1 {
+}
+
+.nav-bar {
   display: block;
   width: 25px;
   height: 3px;
@@ -36,25 +41,6 @@ body {
   background-color: var(--clr-purple);
 }
 
-.nav-bar2 {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: var(--clr-purple);
-}
-
-.nav-bar3 {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: var(--clr-purple);
-}
 
 .nav-icons .nav-bar1 {
   transform: translateY(8px) rotate(45deg);
@@ -71,20 +57,21 @@ body {
   background: #fff;
 }
 
-.nav-items {
-  display: block;
-  position: absolute;
-  background: var(--clr-purple);
-  top: 0;
-  left: -100%;
-  line-height: 60px;
-  height: 100vh;
-  font-size: 32px;
-  text-align: left;
-  font-weight: 600;
-  opacity: 0.9;
-  padding-top: 3.5rem;
-  list-style: none;
+.Nav-items {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 45px;
+}
+.nav-link{
+  transition: 0.7s ease;
+}
+.nav-link:hover{
+  color:blue
+}
+.nav-icons{
+  display: none;
+  cursor: pointer;
 }
 
 ul li {
@@ -110,6 +97,7 @@ ul li {
 }
 
 .navigation {
+  display: flex;
   justify-content: space-between;
   background-color: #fff;
   position: fixed;
@@ -117,4 +105,38 @@ ul li {
   right: 0;
   z-index: 1;
   align-items: center;
+}
+
+@media(max-width:768px){
+  .nav-icons{
+    display: block;
+  }
+  .nav-icons.active .nav-bar:nth-child(2){
+    opacity: 0;
+  }
+  .nav-icons.active .nav-bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .nav-icons.active .nav-bar:nth-child(1){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .Nav-items{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .navigation-link{
+    margin: 16px 0;
+  }
+  .Nav-items.active{
+    left: 0;
+  }
+
 }
