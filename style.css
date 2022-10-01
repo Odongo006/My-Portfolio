@@ -47,7 +47,7 @@ body {
   display: block;
 }
 
-.bar{
+.bar {
   display: block;
   height: 5px;
   width: 35px;
@@ -58,11 +58,11 @@ body {
 
 /* background shadow  */
 .box2 {
-background-color: #fff;
-box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
-padding-bottom: 5rem;
-border-bottom-left-radius: 5rem;
-} 
+  background-color: #fff;
+  box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
+  padding-bottom: 5rem;
+  border-bottom-left-radius: 5rem;
+}
 
 .Greetings h1 {
   font-style: normal;
